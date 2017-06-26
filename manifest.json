@@ -20,11 +20,11 @@
       "matches": [
         "https://waffle.io/**/*"
       ],
-      "js": ["./index.js"],
+      "js": ["./node_modules/jquery/dist/jquery.min.js"],
       "run_at": "document_end"
     }
   ],
   "permissions": [
-    "tabs", "http://*/*", "https://*/*"
+    "tabs", "http://*/*", "https://*/*", "activeTab"
   ]
 }
