@@ -48,3 +48,7 @@ button {
 .grey {
   background-color: rgb(131, 140, 145);
 }
+
+.reset {
+  background-color: #ebebeb;
+}
